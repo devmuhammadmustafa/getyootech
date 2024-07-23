@@ -8,13 +8,17 @@
                             <div class="flug_wrap">
                                 <img src="/front/assets/images/flug/flug_uk.png" alt="Getyootech - Gadgets Ecommerce Site Template">
                             </div>
-                            <select>
-                                <option data-display="Select Option">Select Your Language</option>
-                                <option value="1" selected>English</option>
-                                <option value="2">Bangla</option>
-                                <option value="3" disabled>Arabic</option>
-                                <option value="4">Hebrew</option>
-                            </select>
+                            <div>
+                                <a href="{{ LaravelLocalization::getLocalizedURL('az') }}">AZ</a>
+                                <a href="{{ LaravelLocalization::getLocalizedURL('en') }}">EN</a>
+                            </div>
+{{--                            <select>--}}
+{{--                                <option data-display="Select Option">Select Your Language</option>--}}
+{{--                                <option value="1" selected>English</option>--}}
+{{--                                <option value="2">Bangla</option>--}}
+{{--                                <option value="3" disabled>Arabic</option>--}}
+{{--                                <option value="4">Hebrew</option>--}}
+{{--                            </select>--}}
                         </div>
                     </li>
                     <li>
