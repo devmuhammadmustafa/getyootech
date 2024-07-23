@@ -1,6 +1,6 @@
 /* table of content - start
 ================================================== */
-/* 
+/*
 * Project Name   :  Getyootech - Gadgets Ecommerce Site Template
 * File           :  CSS Base
 * Version        :  1.0.0
@@ -772,6 +772,7 @@ hr {
   font-size: 15px;
 }
 .select_option .nice-select .list {
+    z-index: 999;
   width: 100%;
   border: none;
   margin-top: 5px;
@@ -5460,14 +5461,14 @@ hr {
 /* 3.26 - Error Page - end
 ================================================== */
 /* 4 - Responsive For Mobile & Tablet Devices
-================================================== 
+==================================================
 * Project Name   :  Getyootech - Gadgets Ecommerce Site Template
 * File           :  CSS Base
 * Version        :  1.0.0
 * Last change    :  1 September 2023, Friday
 * Author         :  WebThunder (https://themeforest.net/user/web-thunder)
 *	css code for responsive layout To make Responsive
-================================================== 
+==================================================
 */
 /* media screen and (max-width: 1440px) - start
 ================================================== */
